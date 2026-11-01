@@ -36,3 +36,5 @@ As páginas têm CSP via meta, restringindo scripts, frames, formulários, objet
 ## Grupo Heineken
 
 Case bilíngue de aplicações gráficas de Harley Aguilar, via Dama Criativa. Marcas e identidades existentes. Imagens na apresentação editorial, sem galeria complementar. Escopo documentado: quatro marcas e cinco frentes de entrega. Não usar médias de mercado como resultados do profissional.
+
+Indicadores do case confirmados pelo profissional: 100+ peças e 95% de entregas no prazo (estimativas de memória), além de quatro marcas e cinco frentes. Não adicionar médias setoriais como resultados pessoais.

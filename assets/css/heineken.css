@@ -134,3 +134,16 @@
 }
 @media(max-width:380px){.hk-meta{gap:20px 14px}.hk-meta dd{font-size:.8125rem}.hk-menu-grid{grid-template-columns:1fr}.hk-menu-grid figure{max-width:100%}.hk-menu-grid .hk-image-link{height:330px}.hk-menu-grid figure:last-child{display:block}.hk-menu-grid figure:last-child .hk-image-link{height:280px}.hk-menu-grid figure:last-child h3{margin-top:18px}.hk-source-grid{grid-template-columns:1fr}.hk-source-grid figure:last-child{max-width:none}.hk-outcome{padding:22px}}
 @media print{.hk-chapters,.hk-references,.hk-intro .back-link{display:none}.hk-section{padding-block:30px}.hk-case{--muted:#444;--line:#bbb}.hk-paper,.hk-outcome{background:white;color:black}.hk-copy,.hk-event p,.hk-process p,.hk-outcome p{color:#333}.hk-case figure{break-inside:avoid}.hk-note{background:#f3f3f3;color:black}}
+
+/* Confirmed project production indicators. */
+.hk-results{padding-top:32px;border-top:1px solid var(--line)}
+.hk-results>h3{font-size:clamp(2rem,4vw,3.75rem);max-width:22ch;line-height:1.08}
+.hk-results-intro{color:var(--muted);margin-top:22px;max-width:64ch}
+.hk-results-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin:40px 0}
+.hk-results-grid>div{border-top:1px solid var(--line);padding-top:24px;min-width:0}
+.hk-results-grid strong{display:block;color:var(--lime);font-size:clamp(3rem,5.5vw,5rem);line-height:1;letter-spacing:-.06em}
+.hk-results-grid dt span{display:block;margin-top:20px;font-size:1rem;font-weight:600}
+.hk-results-grid dd{margin:12px 0 0;color:var(--muted);font-size:.9rem;line-height:1.6}
+.hk-results-summary{max-width:85ch;color:var(--muted)}
+@media(max-width:760px){.hk-results-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 20px}.hk-results-grid strong{font-size:3.25rem}.hk-results-grid dt span{font-size:.9375rem}.hk-results-grid dd{font-size:.875rem}}
+@media(max-width:340px){.hk-results-grid{grid-template-columns:1fr}}
