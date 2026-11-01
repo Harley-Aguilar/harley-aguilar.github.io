@@ -1,0 +1,120 @@
+{
+  "source": "Five user-provided portfolio images",
+  "content_status": "Portfolio reconstructions and conceptual mockups; not evidence of official release. Brand identities and product labels are pre-existing third-party assets.",
+  "encoding": "Lossless WebP. Original-size exports verified pixel-identical. Responsive versions resized with Lanczos, then encoded losslessly.",
+  "images": {
+    "editorial": {
+      "source_name": "mockup-editorial.png",
+      "sha256_source": "3c457af049b1b9861889f6bb8a322bb2eeb578838d801361780f12a65e5e802c",
+      "width": 1586,
+      "height": 992,
+      "bytes_source": 3616208,
+      "bytes_webp": 1960768,
+      "pixel_identical": true
+    },
+    "menus-details": {
+      "source_name": "Prancha 04 — Menus Details.png",
+      "sha256_source": "e91da239cb0a77e8d7016328b4cbb0bc47ec49dc1f69b187aa19a2d3b50c0251",
+      "width": 1920,
+      "height": 1200,
+      "bytes_source": 4933084,
+      "bytes_webp": 2737120,
+      "pixel_identical": true
+    },
+    "menus-collection": {
+      "source_name": "Prancha 03 — Menus Collection.png",
+      "sha256_source": "c3e86178032470288e295cd3f5cb5005819fa3a4e341eedda800f8f17da17ea6",
+      "width": 1920,
+      "height": 1200,
+      "bytes_source": 4007701,
+      "bytes_webp": 2072612,
+      "pixel_identical": true
+    },
+    "overview": {
+      "source_name": "Prancha 02 — Overview.png",
+      "sha256_source": "7e2cee9e56fa6dc443e5c2305b5f024de6b17b2b1d913bbb8a5dc4965a71fcec",
+      "width": 1920,
+      "height": 1200,
+      "bytes_source": 3841187,
+      "bytes_webp": 1976750,
+      "pixel_identical": true
+    },
+    "pdv": {
+      "source_name": "Imagem do ChatGPT 1 de nov. de 2026, 16_38_02.png",
+      "sha256_source": "7a4fcbde2daa6caa22868de63323a5e5156bf7c1edd540d6c39a236284e4c24e",
+      "width": 1586,
+      "height": 992,
+      "bytes_source": 3707222,
+      "bytes_webp": 2032514,
+      "pixel_identical": true
+    }
+  },
+  "crops": {
+    "menu-sol-zero": {
+      "source": "menus-collection",
+      "box_ltrb": [
+        20,
+        270,
+        442,
+        925
+      ],
+      "width": 422,
+      "height": 655
+    },
+    "menu-praya": {
+      "source": "menus-collection",
+      "box_ltrb": [
+        870,
+        168,
+        1155,
+        925
+      ],
+      "width": 285,
+      "height": 757
+    },
+    "type-detail": {
+      "source": "menus-details",
+      "box_ltrb": [
+        830,
+        52,
+        1215,
+        540
+      ],
+      "width": 385,
+      "height": 488
+    },
+    "four-pack": {
+      "source": "editorial",
+      "box_ltrb": [
+        810,
+        0,
+        1190,
+        455
+      ],
+      "width": 380,
+      "height": 455
+    },
+    "print-detail": {
+      "source": "editorial",
+      "box_ltrb": [
+        400,
+        470,
+        1100,
+        940
+      ],
+      "width": 700,
+      "height": 470
+    },
+    "pdv-scene": {
+      "source": "pdv",
+      "box_ltrb": [
+        0,
+        0,
+        1057,
+        682
+      ],
+      "width": 1057,
+      "height": 682
+    }
+  }
+}

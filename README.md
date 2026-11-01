@@ -3,7 +3,7 @@
 Site estático, sem build ou dependências externas. Inglês na raiz (`https://harley-aguilar.github.io/`) e português em `pt/`, incluindo os cases traduzidos. `en/index.html` e os caminhos antigos sob `Portfolio/` redirecionam para o endereço atual. O seletor PT/EN mantém a página e a seção. Experiência: 4+ anos.
 
 ## Publicação
-Extraia o pacote e envie o conteúdo da pasta para a raiz do repositório. Não publique o arquivo ZIP. Para upload pelo navegador, envie `assets` em um lote e as demais pastas e arquivos em outro: o GitHub aceita até 100 arquivos por envio e 25 MiB por arquivo. Cada arquivo deste site fica abaixo de 2,5 MiB. Em Settings → Pages, publique a branch pela raiz (`/`).
+Extraia o pacote e envie o conteúdo da pasta para a raiz do repositório. Não publique o arquivo ZIP. Para upload pelo navegador, envie `assets` em um lote e as demais pastas e arquivos em outro: o GitHub aceita até 100 arquivos por envio e 25 MiB por arquivo. Os arquivos permanecem abaixo do limite de 25 MiB. Em Settings → Pages, publique a branch pela raiz (`/`).
 
 ## Imagens e desempenho
 As imagens completas e as ampliações mantêm resolução, cores e pixels. A compressão WebP é sem perda; a equivalência dos pixels foi verificada. A geometria dos SVGs foi preservada, e somente suas imagens embutidas foram recomprimidas sem perda. Os vídeos originais permanecem idênticos.
@@ -32,3 +32,11 @@ O telefone/WhatsApp foi removido da versão atual. O histórico público do Git 
 O aviso de privacidade é informativo, não um consentimento para rastreamento. Apenas sua confirmação fica no localStorage, sem transmissão. A navegação não carrega analytics nem rastreadores publicitários. YouTube é opt-in por clique. Políticas completas em `privacy.html` e `pt/privacidade.html` explicam também os dados técnicos processados pelo provedor de hospedagem.
 
 As páginas têm CSP via meta, restringindo scripts, frames, formulários, objetos, base URL e conexões. Links externos usam isolamento de opener e referrer; a política global de referrer é no-referrer. O GitHub Pages gerencia TLS/HTTPS e os cabeçalhos HTTP; CSP frame-ancestors e controles como Permissions-Policy exigiriam hospedagem com cabeçalhos configuráveis. Não confundir o aviso de privacidade com uma garantia absoluta de segurança.
+
+## Grupo Heineken
+
+Case bilíngue em `projects/heineken.html` e `en/projects/heineken.html`, ligado aos cards nas duas homes, à experiência Dama Criativa e à sequência BORA → Grupo Heineken → Gráficos selecionados. A página apresenta aplicações gráficas de identidades existentes; não atribui autoria aos logotipos ou rótulos. O período e a função vêm da experiência já publicada no portfólio.
+
+As cinco imagens fornecidas são identificadas como reconstruções de portfólio ou mockups conceituais, sem alegar veiculação, fabricação ou resultados comerciais. Eventos internos são descritos como parte do escopo relatado, sem associar uma cena a um evento não documentado. Divergências de Amstel Lager/Ultra e calorias ficam explicitadas; textos dos rótulos não são especificações oficiais. Não houve retoque dos rótulos sem arquivos de origem validados.
+
+`assets/projects/heineken/manifest.json` registra nomes e hashes dos cinco originais, dimensões, compressão e enquadramentos. As versões completas WebP foram verificadas pixel a pixel contra os PNGs. Derivados responsivos usam Lanczos e WebP sem perda. Nenhuma marca foi redesenhada. As pranchas completas ficam na seção de apoio, com ampliação acessível pelo visualizador existente e links funcionais sem JavaScript. CSS específico em `assets/css/heineken.css`; não há dependências de execução adicionais.

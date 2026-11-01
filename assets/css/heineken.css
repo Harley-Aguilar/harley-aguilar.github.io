@@ -1,0 +1,136 @@
+/* Grupo Heineken: editorial case, using the portfolio's existing type and palette. */
+.hk-case{--hk-space:clamp(64px,8vw,112px);padding-bottom:72px}
+.hk-case h1,.hk-case h2,.hk-case h3{text-wrap:balance}
+.hk-case h2{font-size:clamp(2.25rem,4.8vw,4.75rem);line-height:1.04}
+.hk-case h3{font-size:clamp(1.35rem,2vw,1.75rem);line-height:1.15}
+.hk-case p{line-height:1.65}
+.hk-intro{padding-top:32px}
+.hk-intro .back-link{margin-bottom:48px;color:var(--muted)}
+.hk-title-row{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(28px,5vw,80px);align-items:end}
+.hk-title-row h1{font-size:clamp(4rem,8.8vw,8.5rem);line-height:.92;letter-spacing:-.065em;margin-top:26px}
+.hk-title-row h1 span{display:block}
+.hk-deck{font-size:clamp(1.15rem,1.65vw,1.5rem);max-width:36ch}
+.hk-brands{font: .75rem/1.7 monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:24px}
+.hk-meta{display:grid;grid-template-columns:1.05fr 1fr .85fr 1.1fr;gap:28px;margin:48px 0 36px;padding-top:24px;border-top:1px solid var(--line)}
+.hk-meta div{min-width:0}
+.hk-meta dt{font: .7rem/1.5 monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.hk-meta dd{margin:9px 0 0;font-size:.9375rem;line-height:1.55}
+.hk-case figure{margin:0;min-width:0}
+.hk-image-link{display:block;overflow:hidden;border-radius:16px;background:#e7e3db;cursor:zoom-in}
+.hk-case img{width:100%;height:auto}
+.hk-case figcaption{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;justify-content:space-between;margin-top:14px;color:var(--muted);font-size:.8125rem;line-height:1.6}
+.hk-status{font:.65rem/1.6 monospace;letter-spacing:.06em;text-transform:uppercase;flex-shrink:0}
+.hk-hero .hk-image-link{border-radius:24px}
+.hk-hero figcaption>span:last-child{max-width:74ch}
+.hk-chapters{position:sticky;top:0;z-index:4;background:#0a0a0af5;border-block:1px solid var(--line);margin-top:36px}
+.hk-chapters-inner{display:flex;gap:clamp(14px,3vw,46px);overflow-x:auto;scrollbar-width:thin}
+.hk-chapters a{display:flex;align-items:center;flex-shrink:0;gap:9px;min-height:60px;font-size:.8125rem;white-space:nowrap}
+.hk-chapters a span{font: .65rem monospace;color:var(--lime)}
+.hk-section{padding-block:var(--hk-space);scroll-margin-top:64px}
+.hk-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:start}
+.hk-heading .eyebrow{margin-bottom:24px}
+.hk-copy{font-size:1.0625rem;color:var(--muted);max-width:58ch}
+.hk-copy p+p{margin-top:20px}
+.hk-copy strong{color:var(--paper);font-weight:400}
+.hk-note{margin-top:36px;padding:22px 26px;border-left:2px solid var(--lime);background:#151711;font-size:.9rem;line-height:1.7;color:#d3d5c8}
+.hk-note strong{display:block;color:var(--paper);margin-bottom:8px;font-size:.875rem}
+.hk-paper{background:var(--paper);color:var(--ink);--muted:#55554f;--line:#d0ccc1}
+.hk-paper .eyebrow{color:#45483c}
+.hk-section-head{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(24px,5vw,80px);align-items:end;margin-bottom:40px}
+.hk-section-head p:last-child{font-size:1.0625rem;color:var(--muted);max-width:48ch}
+.hk-menu-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.25fr);gap:clamp(20px,3vw,40px);margin-top:48px;align-items:start}
+.hk-menu-grid .hk-image-link{height:clamp(260px,30vw,390px);background:#e9e6df}
+.hk-menu-grid img{height:100%;object-fit:contain}
+.hk-menu-grid figure:last-child img{object-fit:cover}
+.hk-menu-grid figcaption{display:block}
+.hk-menu-grid h3{margin-top:18px}
+.hk-menu-grid figcaption p{font-size:.9rem;margin-top:12px;max-width:38ch}
+.hk-menu-grid .hk-status{display:block;margin-bottom:12px}
+.hk-small-note{font-size:.875rem;color:var(--muted);line-height:1.7;margin-top:32px;max-width:90ch}
+.hk-pack{align-items:center}
+.hk-pack figure{max-width:400px;width:100%;justify-self:center}
+.hk-pack .hk-image-link{background:#e9e3d9}
+.hk-pack .hk-copy{margin-top:28px}
+.hk-text-link{display:inline-flex;align-items:center;min-height:44px;margin-top:18px;text-decoration:underline;text-underline-offset:5px;color:var(--paper);font-size:.9rem}
+.hk-rule{border-top:1px solid var(--line)}
+.hk-pdv .hk-section-head{align-items:start}
+.hk-pdv figure{width:min(100%,1100px);margin:auto}
+.hk-promos{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,.6fr);gap:clamp(28px,5vw,72px);align-items:center}
+.hk-promos .hk-copy{margin-top:28px}
+.hk-event{margin-top:38px;border-top:1px solid var(--line);padding-top:24px}
+.hk-event h3{font-size:1.3rem}
+.hk-event p{font-size:.9375rem;color:var(--muted);margin-top:14px}
+.hk-process{list-style:none;counter-reset:process;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;padding:0;margin:48px 0}
+.hk-process li{counter-increment:process;border-top:1px solid var(--line);padding-top:24px}
+.hk-process li::before{content:'0' counter(process);display:block;font:.75rem monospace;color:var(--lime);margin-bottom:24px}
+.hk-process p{font-size:.9375rem;color:var(--muted);margin-top:16px}
+.hk-outcome{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,80px);padding:40px;border:1px solid var(--line);border-radius:20px;background:#141414}
+.hk-outcome h3{font-size:clamp(1.8rem,3vw,2.75rem);margin-top:20px}
+.hk-outcome p{color:var(--muted)}
+.hk-outcome p+p{margin-top:18px;font-size:.875rem}
+.hk-references{padding-top:0}
+.hk-reference-intro{max-width:75ch;color:var(--muted);margin-top:24px}
+.hk-references details{border-block:1px solid var(--line);margin-top:28px}
+.hk-references summary{padding:24px 4px;min-height:64px;cursor:pointer;line-height:1.5;font-size:1rem;list-style-position:inside}
+.hk-references summary:focus-visible{outline:3px solid var(--lime);outline-offset:4px}
+.hk-source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;padding:20px 0 36px}
+.hk-source-grid .hk-image-link{border-radius:10px;aspect-ratio:1.6}
+.hk-source-grid img{height:100%;object-fit:contain}
+.hk-reference-note{font-size:.875rem;line-height:1.7;color:var(--muted);margin:4px 0 32px;max-width:100ch}
+.hk-case .detail-nav{padding-top:36px;border-top:1px solid var(--line)}
+.project-heineken{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:center}
+.project-heineken .project-image{align-self:stretch;min-height:350px;position:relative;background:#d9d4ca}
+.project-heineken .project-image img{object-fit:cover;object-position:47% 50%}
+.project-heineken .project-copy{padding:clamp(28px,4vw,52px)}
+.project-heineken h3{font-size:clamp(2.25rem,3.6vw,3.5rem);margin-top:22px}
+.project-heineken .hk-card-status{display:block;font:.65rem/1.6 monospace;text-transform:uppercase;letter-spacing:.05em;color:#50534a;margin-top:18px}
+.project-heineken .project-link{color:var(--ink)}
+.experience-case-link{display:inline-flex;align-items:center;min-height:44px;margin-top:18px;color:var(--lime);text-decoration:underline;text-underline-offset:5px}
+@media(min-width:761px) and (max-width:1100px){.hk-meta{grid-template-columns:1fr 1fr}.hk-promos{grid-template-columns:1.15fr .85fr}.hk-menu-grid{gap:20px}.hk-menu-grid .hk-image-link{height:280px}}
+@media(max-width:760px){
+  .hk-case{--hk-space:56px;padding-bottom:48px}
+  .hk-intro{display:flex;flex-direction:column;padding-top:18px}
+  .hk-intro .back-link{margin-bottom:28px}
+  .hk-intro>.back-link{align-self:flex-start}
+  .hk-intro .hk-hero{order:1;margin-top:28px}
+  .hk-title-row,.hk-split,.hk-section-head,.hk-promos,.hk-outcome{grid-template-columns:minmax(0,1fr);gap:28px}
+  .hk-title-row h1{font-size:clamp(3.5rem,15vw,6.5rem);letter-spacing:-.06em;margin-top:20px}
+  .hk-deck{font-size:1.125rem;max-width:40ch}
+  .hk-brands{margin-top:18px;font-size:.6875rem}
+  .hk-meta{order:2;grid-template-columns:1fr 1fr;gap:22px 18px;margin:28px 0 0}
+  .hk-meta dd{font-size:.875rem}
+  .hk-hero .hk-image-link{border-radius:14px}
+  .hk-case figcaption{font-size:.8125rem;gap:7px}
+  .hk-chapters{margin-top:28px}
+  .hk-chapters-inner{gap:24px}
+  .hk-chapters a{min-height:52px;font-size:.75rem}
+  .hk-case h2{font-size:clamp(2rem,8.6vw,3.4rem)}
+  .hk-heading .eyebrow{margin-bottom:20px}
+  .hk-section-head{margin-bottom:28px}
+  .hk-section-head p:last-child,.hk-copy{font-size:1rem}
+  .hk-note{padding:18px 20px;margin-top:28px}
+  .hk-menu-grid{grid-template-columns:1fr 1fr;gap:28px 18px;margin-top:32px}
+  .hk-menu-grid .hk-image-link{height:clamp(210px,64vw,360px);border-radius:10px}
+  .hk-menu-grid h3{font-size:1.25rem}
+  .hk-menu-grid figure:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:center}
+  .hk-menu-grid figure:last-child .hk-image-link{height:220px}
+  .hk-menu-grid figure:last-child h3{margin-top:0}
+  .hk-menu-grid figcaption p{font-size:.875rem;margin-top:10px}
+  .hk-small-note{margin-top:24px}
+  .hk-pack figure{max-width:340px;justify-self:start;order:1}
+  .hk-promos figure{order:1}
+  .hk-event{margin-top:28px}
+  .hk-process{grid-template-columns:1fr;gap:28px;margin:32px 0}
+  .hk-process li{display:grid;grid-template-columns:30px 1fr;column-gap:18px;padding-top:20px}
+  .hk-process li::before{grid-row:1/3;margin-top:3px;margin-bottom:0}
+  .hk-process p{grid-column:2;margin-top:12px}
+  .hk-outcome{padding:26px;gap:24px}
+  .hk-source-grid{grid-template-columns:1fr 1fr;gap:24px 18px}
+  .hk-source-grid figure:last-child{grid-column:1/-1;max-width:65%}
+  .project-heineken{display:flex;flex-direction:column}
+  .project-heineken .project-image{width:100%;min-height:0;aspect-ratio:1.6}
+  .project-heineken .project-copy{width:100%;padding:24px}
+  .project-heineken h3{font-size:2.25rem}
+}
+@media(max-width:380px){.hk-meta{gap:20px 14px}.hk-meta dd{font-size:.8125rem}.hk-menu-grid{grid-template-columns:1fr}.hk-menu-grid figure{max-width:100%}.hk-menu-grid .hk-image-link{height:330px}.hk-menu-grid figure:last-child{display:block}.hk-menu-grid figure:last-child .hk-image-link{height:280px}.hk-menu-grid figure:last-child h3{margin-top:18px}.hk-source-grid{grid-template-columns:1fr}.hk-source-grid figure:last-child{max-width:none}.hk-outcome{padding:22px}}
+@media print{.hk-chapters,.hk-references,.hk-intro .back-link{display:none}.hk-section{padding-block:30px}.hk-case{--muted:#444;--line:#bbb}.hk-paper,.hk-outcome{background:white;color:black}.hk-copy,.hk-event p,.hk-process p,.hk-outcome p{color:#333}.hk-case figure{break-inside:avoid}.hk-note{background:#f3f3f3;color:black}}

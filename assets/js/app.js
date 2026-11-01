@@ -121,7 +121,7 @@ setMotion();
 
 
 // In-page image viewer for project boards. Links remain functional without JavaScript.
-const caseLinks = [...document.querySelectorAll('.case-study figure > a, .bora-gallery figure > a, .graphics-gallery a.art-frame')];
+const caseLinks = [...document.querySelectorAll('.case-study figure > a, .bora-gallery figure > a, .graphics-gallery a.art-frame, .hk-case .hk-image-link')];
 if (caseLinks.length) {
   const viewer = document.createElement('dialog');
   viewer.className = 'lightbox';
