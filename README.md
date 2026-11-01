@@ -35,8 +35,4 @@ As páginas têm CSP via meta, restringindo scripts, frames, formulários, objet
 
 ## Grupo Heineken
 
-Case bilíngue em `projects/heineken.html` e `en/projects/heineken.html`, ligado aos cards nas duas homes, à experiência Dama Criativa e à sequência BORA → Grupo Heineken → Gráficos selecionados. A página apresenta aplicações gráficas de identidades existentes; não atribui autoria aos logotipos ou rótulos. O período e a função vêm da experiência já publicada no portfólio.
-
-As cinco imagens fornecidas são identificadas como reconstruções de portfólio ou mockups conceituais, sem alegar veiculação, fabricação ou resultados comerciais. Eventos internos são descritos como parte do escopo relatado, sem associar uma cena a um evento não documentado. Divergências de Amstel Lager/Ultra e calorias ficam explicitadas; textos dos rótulos não são especificações oficiais. Não houve retoque dos rótulos sem arquivos de origem validados.
-
-`assets/projects/heineken/manifest.json` registra nomes e hashes dos cinco originais, dimensões, compressão e enquadramentos. As versões completas WebP foram verificadas pixel a pixel contra os PNGs. Derivados responsivos usam Lanczos e WebP sem perda. Nenhuma marca foi redesenhada. As pranchas completas ficam na seção de apoio, com ampliação acessível pelo visualizador existente e links funcionais sem JavaScript. CSS específico em `assets/css/heineken.css`; não há dependências de execução adicionais.
+Case bilíngue de aplicações gráficas de Harley Aguilar, via Dama Criativa. Marcas e identidades existentes. Imagens na apresentação editorial, sem galeria complementar. Escopo documentado: quatro marcas e cinco frentes de entrega. Não usar médias de mercado como resultados do profissional.
