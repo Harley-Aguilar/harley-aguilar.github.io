@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harley-aguilar.github.io/sitemap.xml
